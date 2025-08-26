@@ -12,7 +12,7 @@ This project implements **face detection and face embedding** on Android using *
 ---
 
 ## 📂 Project Structure
-
+<details> <summary>📁 <strong>Project Directory Structure</strong> (Click to expand)</summary>
 app/
 └── src/
     └── main/
@@ -29,7 +29,7 @@ app/
         │   ├── 1.jpg
         │   ├── 2.jpg
         │   └── test.jpg (test images)
-
+</details>
 ---
 
 ## 🧠 Model Details

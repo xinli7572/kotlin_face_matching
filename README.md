@@ -2,6 +2,8 @@
 
 This project implements **face detection and face embedding** on Android using **Kotlin** and **TensorFlow Lite**. It runs entirely offline and is suitable for real-time face recognition and comparison on mobile devices.
 
+https://github.com/user-attachments/assets/d5de5b45-251d-4cea-9d8c-959aec8d6c3f
+
 ## ✨ Features
 
 - 🎯 **Face Detection** using [InsightFace](https://github.com/deepinsight/insightface)'s CenterFace model.
@@ -63,5 +65,8 @@ Use Dockerized `onnx2tflite` to convert models:
 	  -w /workdir \
 	  pinto0309/onnx2tf:latest \
 	  onnx2tf -i centerface.onnx
+
+
+
 
 

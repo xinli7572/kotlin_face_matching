@@ -31,7 +31,11 @@ app/
 │ └── test.jpg
 ```
 ---
+## Requirements
 
+- Android Studio 4.0 or higher
+- Android device with camera access
+- OpenCV SDK (integrated into the project)
 ## 🧠 Model Details
 
 ### 1. Face Detection: CenterFace

@@ -14,19 +14,22 @@ This project implements **face detection and face embedding** on Android using *
 ## 📂 Project Structure
 
 app/
-├── src/
-│ ├── main/
-│ │ ├── java/com/example/myapplication/
-│ │ │ ├── MainActivity.kt
-│ │ │ ├── CameraX.kt
-│ │ │ ├── FaceDetection.kt
-│ │ │ ├── FaceEmbedding.kt
-│ │ │ ├── FaceUtil.kt
-│ │ │ └── OverlayView.kt
-│ │ ├── assets/
-│ │ │ ├── CenterFace.tflite
-│ │ │ ├── mobilefacenet.tflite
-│ │ │ └── *.jpg (Test images)
+└── src/
+    └── main/
+        ├── java/com/example/myapplication/
+        │   ├── MainActivity.kt
+        │   ├── CameraX.kt
+        │   ├── FaceDetection.kt
+        │   ├── FaceEmbedding.kt
+        │   ├── FaceUtil.kt
+        │   └── OverlayView.kt
+        ├── assets/
+        │   ├── CenterFace.tflite
+        │   ├── mobilefacenet.tflite
+        │   ├── 1.jpg
+        │   ├── 2.jpg
+        │   └── test.jpg (test images)
+
 ---
 
 ## 🧠 Model Details

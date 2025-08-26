@@ -54,8 +54,10 @@ app/
 Use Dockerized `onnx2tflite` to convert models:
 
 ```bash
-docker run --rm -v $PWD:/workspace onnx2tflite \
-    --input_model model.onnx \
-    --output_model model.tflite \
-    --input_shape "1,3,112,112" \
-    --input_format NCHW
+	docker run --rm -it \
+	  -v $(pwd):/workdir \
+	  -w /workdir \
+	  pinto0309/onnx2tf:latest \
+	  onnx2tf -i centerface.onnx
+
+
